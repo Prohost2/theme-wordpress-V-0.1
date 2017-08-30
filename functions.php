@@ -21,7 +21,7 @@
 	if(function_exists('register_sidebar)')) // Funcion para iniciar el Sidebar
 		register_sidebar( array(
 			'name' => 'main Sidebar', // Nombre del Sidebar
-			'before_widget' => '<hr>'; // Salto de linea
+			'before_widget' => '<hr>', // Salto de linea
 			'after_widget' => '',
 			'before_title' => '<h3>', // Apertura de la etiqueta h3
 			'after_title' => '</h3>' // Cierre de la etiqueta h3

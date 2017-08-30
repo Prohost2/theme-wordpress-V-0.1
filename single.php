@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section id="main">
 	<article id="single">
-		<?php if (have_posts()) : ?><?php whiile(have_posts()) : the_post(); ?>
+		<?php if (have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
 			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Enlace permancente a <?php the_title_attribute(); ?>"><?php the_title(); ?>.</a></h2>
 			<small>Publicado por <?php the_author_link() ?> el <?php the_time('j/m/Y') ?>.Categoria : <?php the_category(','); ?></small> <br>
 			<div class="post">
@@ -19,7 +19,7 @@
 
 
 	<!--Section para mostrar las entradas Relacionas con sigle-->
- <?php?
+ <?php
     $tags = wp_get_post_tags($post->ID);
     if ($tags) {
       $tag_ids = array();
