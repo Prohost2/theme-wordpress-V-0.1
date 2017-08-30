@@ -7,4 +7,6 @@
  
  */
 
+Autoria del theme: Inversiones Prohost 2021.
+Meta: Crear nuestra propia plantilla potencial para la creación de Proyectos de clientes para las diferentes ramas.
 
