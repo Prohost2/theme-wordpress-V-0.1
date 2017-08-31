@@ -6,8 +6,9 @@
 6 Author URI: http://www.prohost-2021.com <-- Direccion del tema
 7 Version: 1.0 <-- Version del tema
 */
+
 .commentlist li {
-  list-style: none !important;
+  list-style: none !important; 
 }
 .comment-body {
   padding: 15px;
